@@ -16,7 +16,7 @@ jobs:
         with:
           flutter-version: "3.24.0"
 
-      - run: flutter create .
+      - run: flutter create . --project-name pertian_shop
       - run: flutter pub get
       - run: flutter build apk --release
 
