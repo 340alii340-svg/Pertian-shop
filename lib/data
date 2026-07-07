@@ -1,1 +1,40 @@
+import '../models/product.dart';
 
+const List<Product> products = [
+  Product(
+    id: 1,
+    name: 'iPhone 16 Pro Max',
+    image: 'https://picsum.photos/400?1',
+    price: 99900000,
+    oldPrice: 109900000,
+    rating: 4.9,
+    category: 'موبایل',
+  ),
+  Product(
+    id: 2,
+    name: 'Samsung Galaxy S25 Ultra',
+    image: 'https://picsum.photos/400?2',
+    price: 79900000,
+    oldPrice: 85900000,
+    rating: 4.8,
+    category: 'موبایل',
+  ),
+  Product(
+    id: 3,
+    name: 'MacBook Pro M4',
+    image: 'https://picsum.photos/400?3',
+    price: 149900000,
+    oldPrice: 159900000,
+    rating: 5.0,
+    category: 'لپ تاپ',
+  ),
+  Product(
+    id: 4,
+    name: 'PlayStation 5 Slim',
+    image: 'https://picsum.photos/400?4',
+    price: 34900000,
+    oldPrice: 37900000,
+    rating: 4.9,
+    category: 'گیم',
+  ),
+];
